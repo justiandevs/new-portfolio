@@ -114,22 +114,22 @@ export default function Home() {
               Justian.dev
             </Link>
             <div className="flex flex-row gap-2">
-              <a href={"https://github.com/justiandevs"} className="opacity-100">
+              <a href={"https://github.com/justiandevs"} aria-label="github" className="opacity-100">
                 <div className="p-3 border border-zinc-100 bg-zinc-900 border-opacity-10 rounded-full transition duration-300 hover:border-opacity-100">
                   <FaGithub />
                 </div>
               </a>
-              <a href={"https://www.linkedin.com/in/justian-spijkerbosch-a4b74118b/"} className="opacity-100">
+              <a href={"https://www.linkedin.com/in/justian-spijkerbosch-a4b74118b/"} aria-label="linkedin" className="opacity-100">
                 <div className="p-3 border border-zinc-100 bg-zinc-900 border-opacity-10 rounded-full transition duration-300 hover:border-opacity-100">
                   <FaLinkedin />
                 </div>
               </a>
-              <a href={"https://twitter.com/Justiandev"} className="opacity-100">
+              <a href={"https://twitter.com/Justiandev"} aria-label="twitter" className="opacity-100">
                 <div className="p-3 border border-zinc-100 bg-zinc-900 border-opacity-10 rounded-full transition duration-300 hover:border-opacity-100">
                   <FaTwitter />
                 </div>
               </a>
-              <a href={"https://instagram.com/justianspijkerbosch"} className="opacity-100">
+              <a href={"https://instagram.com/justianspijkerbosch"} aria-label="instagram" className="opacity-100">
                 <div className="p-3 border border-zinc-100 bg-zinc-900 border-opacity-10 rounded-full transition duration-300 hover:border-opacity-100">
                   <FaInstagram />
                 </div>
