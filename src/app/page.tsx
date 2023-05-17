@@ -32,7 +32,7 @@ export default function Home() {
           <section className="py-32 custom-container">
             <div className="flex flex-col gap-8 w-full lg:w-1/2">
               <h1>I am a <span className="text-lime-400">creative developer</span> who build things that you will like 😌</h1>
-              <p>I am Justian Spijkerbosch, an indiemaker who likes to develop, design and market my own apps, themes and more.</p>
+              <p>I am Justian Spijkerbosch, a fullstack developer who is focused on creating beautiful (web)apps and websites for myself or others.</p>
               <a href={"#about"} className="group text-lime-400 font-semibold opacity-100 flex flex-row gap-4 items-center transition duration-300 hover:text-lime-500">
                 Learn more about me
                 <FaArrowRight className="transition duration-300 group-hover:translate-x-1 group-hover:rotate-45" />
@@ -48,15 +48,15 @@ export default function Home() {
           <section id="about" className="custom-container py-32 grid grid-cols-1 md:grid-cols-3 gap-16">
             <div className="col-span-1 md:col-span-2 flex gap-8 flex-col">
               <h2>Who <span className="text-lime-400">am I</span></h2>
-              <p>I am Justian Spijkerbosch and I enjoy working on digital solutions that are problem-solving such as apps or themes for certain software packages.</p>
-              <p>My personal aspiration is to become an indiemaker / indiehacker who can perform all the services necessary to successfully market and maintain a product on his own, thereby supporting my freedom as an individual.</p>
+              <p>I am Justian Spijkerbosch and I enjoy working on digital solutions that are problem-solving such as apps or websites as a fullstack developer. I do this for myself and for others.</p>
+              <p>Since a few years I program a lot and currently I am a second years Computer Science student, next to this section you can see the technologies I am well-known with and at my <a className="opacity-100 text-lime-400 font-semibold transition duration-300 hover:text-lime-500" href="https://github.com/justiandevs">github</a> you can see my opensource projects / contributions and under this section you can see my work.</p>
               <a href={"#work"} className="group text-lime-400 font-semibold opacity-100 flex flex-row gap-4 items-center transition duration-300 hover:text-lime-500">
                 My work
                 <FaArrowRight className="transition duration-300 group-hover:translate-x-1 group-hover:rotate-45" />
               </a>
             </div>
             <div className="col-span-1 md:col-span-1 flex flex-col gap-8 md:items-end">
-              <h3>My skills</h3>
+              <h3>Technologies</h3>
               <div className="flex flex-wrap md:grid md:grid-cols-3 gap-4">
                 <Link href="https://figma.com" className="bg-zinc-900 opacity-100 border flex items-center justify-center border-zinc-100 border-opacity-10 rounded-lg w-12 h-12">
                   <Image height={16} width={16} src={figma} alt={"figma"} />
