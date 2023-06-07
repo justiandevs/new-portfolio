@@ -31,7 +31,7 @@ export default function Home() {
           </nav>
           <section className="py-32 custom-container">
             <div className="flex flex-col gap-8 w-full lg:w-1/2">
-              <h1>I am a <span className="text-lime-400">creative developer</span> who build things that you will like 😌</h1>
+              <h1>I am a <span className="text-lime-400">creative developer</span> who build things that you will like 🤗</h1>
               <p>I am Justian Spijkerbosch, a fullstack developer who is focused on creating beautiful (web)apps and websites for myself or others.</p>
               <a href={"#about"} className="group text-lime-400 font-semibold opacity-100 flex flex-row gap-4 items-center transition duration-300 hover:text-lime-500">
                 Learn more about me
