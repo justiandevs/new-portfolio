@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    @apply bg-zinc-900;
+    @apply bg-gray-50;
     height: 100%;
 }
 
@@ -20,28 +20,28 @@ body {
 h1 {
     font-size: 36px;
     line-height: 44px;
-    color: #ffffff;
+    color: #222;
     font-weight: 600;
 }
 
 h2 {
     font-size: 32px;
     line-height: 42px;
-    color: #ffffff;
+    color: #222;
     font-weight: 600;
 }
 
 h3 {
     font-size: 24px;
     line-height: 32px;
-    color: #ffffff;
+    color: #222;
     font-weight: 600;
 }
 
 p, a {
     font-size: 20px;
     line-height: 30px;
-    color: #ffffff;
+    color: #222;
     opacity: 0.75;
 }
 
